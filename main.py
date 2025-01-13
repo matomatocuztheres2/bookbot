@@ -7,7 +7,8 @@ def main():
 	print("")
 	char_count = get_char_count(text)
 	lett = get_char_sort(char_count)
-	print(lett)
+	for i in range(0,len(lett)):
+		print(f"The {lett[i]["letter"]} character was found {lett[i]["count"]} times.")
 	print("")
 	print("--- End Book Report ---")
 
